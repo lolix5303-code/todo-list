@@ -17,11 +17,11 @@ export default function TodoForm({ onAdd }) {
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Yeni görev yaz..."
+        placeholder="Görev yaz"
         className="input"
       />
       <button type="submit" className="ekle-buton">
-        EKLE
+        Ekle
       </button>
     </form>
   );
